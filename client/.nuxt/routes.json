@@ -1,0 +1,79 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/prmy/Documents/Application/client/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_3295e6cc"
+  },
+  {
+    "name": "admin-login",
+    "path": "/admin/login",
+    "component": "/Users/prmy/Documents/Application/client/pages/admin/login.vue",
+    "chunkName": "pages/admin/login",
+    "_name": "_025a7649"
+  },
+  {
+    "name": "faculty-home",
+    "path": "/faculty/home",
+    "component": "/Users/prmy/Documents/Application/client/pages/faculty/home/index.vue",
+    "chunkName": "pages/faculty/home/index",
+    "_name": "_1ca94886"
+  },
+  {
+    "name": "faculty-login",
+    "path": "/faculty/login",
+    "component": "/Users/prmy/Documents/Application/client/pages/faculty/login.vue",
+    "chunkName": "pages/faculty/login",
+    "_name": "_5cdf95c4"
+  },
+  {
+    "name": "student-home",
+    "path": "/student/home",
+    "component": "/Users/prmy/Documents/Application/client/pages/student/home/index.vue",
+    "chunkName": "pages/student/home/index",
+    "_name": "_a9e229f4"
+  },
+  {
+    "name": "student-login",
+    "path": "/student/login",
+    "component": "/Users/prmy/Documents/Application/client/pages/student/login.vue",
+    "chunkName": "pages/student/login",
+    "_name": "_5d807c35"
+  },
+  {
+    "name": "admin-home-list",
+    "path": "/admin/home/list",
+    "component": "/Users/prmy/Documents/Application/client/pages/admin/home/list.vue",
+    "chunkName": "pages/admin/home/list",
+    "_name": "_98412fa4"
+  },
+  {
+    "name": "admin-home-result",
+    "path": "/admin/home/result",
+    "component": "/Users/prmy/Documents/Application/client/pages/admin/home/result.vue",
+    "chunkName": "pages/admin/home/result",
+    "_name": "_40c38a2d"
+  },
+  {
+    "name": "admin-home-schedule-scheduleDetail",
+    "path": "/admin/home/schedule/scheduleDetail",
+    "component": "/Users/prmy/Documents/Application/client/pages/admin/home/schedule/scheduleDetail.vue",
+    "chunkName": "pages/admin/home/schedule/scheduleDetail",
+    "_name": "_157273e0"
+  },
+  {
+    "name": "admin-home-schedule-schedules",
+    "path": "/admin/home/schedule/schedules",
+    "component": "/Users/prmy/Documents/Application/client/pages/admin/home/schedule/schedules.vue",
+    "chunkName": "pages/admin/home/schedule/schedules",
+    "_name": "_7ff0ac58"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/prmy/Documents/Application/client/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7e9de7f2"
+  }
+]

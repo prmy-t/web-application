@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .column {
+        float: left;
+        width: 22%;
+        padding: 0 10px;
+        margin-bottom: 20px;
+      }
+      .row {
+        margin: 0 -5px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      /* Responsive columns */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0.1, 0.1);
+        width: 800px;
+        height: 720px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        background-color: #f6f1ef;
+      }
+
+      .title {
+        color: grey;
+        font-size: 25px;
+        white-space: nowrap;
+      }
+
+      button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+      }
+
+      button {
+        border-radius: 4px;
+        font-size: 24px;
+        width: 240px;
+        text-align: center;
+      }
+      img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin-left: 296px;
+        float: left;
+      }
+      .name {
+        white-space: nowrap;
+      }
+      .subCard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: #e7e5e5;
+        border-radius: 4px;
+      }
+    </style>
+</head>
+
+  <body style="-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;color:#222;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:19px;margin:0;min-width:100%;padding:0;text-align:left;width:100%!important">
+    <style>
+    @media only screen and (max-width:600px) {
+      table[class=body] img {
+        width: auto !important;
+        height: auto !important
+      }
+
+      table[class=body] center {
+        min-width: 0 !important
+      }
+
+      table[class=body] .container {
+        width: 95% !important
+      }
+
+      table[class=body] .row {
+        width: 100% !important;
+        display: block !important
+      }
+
+      table[class=body] .wrapper {
+        display: block !important;
+        padding-right: 0 !important
+      }
+
+      table[class=body] .column,
+      table[class=body] .columns {
+        table-layout: fixed !important;
+        float: none !important;
+        width: 100% !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        display: block !important
+      }
+
+      table[class=body] .wrapper.first .column,
+      table[class=body] .wrapper.first .columns {
+        display: table !important
+      }
+
+      table[class=body] table.column td,
+      table[class=body] table.columns td {
+        width: 100% !important
+      }
+
+      table[class=body] .column td.one,
+      table[class=body] .columns td.one {
+        width: 8.333333% !important
+      }
+
+      table[class=body] .column td.two,
+      table[class=body] .columns td.two {
+        width: 16.666666% !important
+      }
+
+      table[class=body] .column td.three,
+      table[class=body] .columns td.three {
+        width: 25% !important
+      }
+
+      table[class=body] .column td.four,
+      table[class=body] .columns td.four {
+        width: 33.333333% !important
+      }
+
+      table[class=body] .column td.five,
+      table[class=body] .columns td.five {
+        width: 41.666666% !important
+      }
+
+      table[class=body] .column td.six,
+      table[class=body] .columns td.six {
+        width: 50% !important
+      }
+
+      table[class=body] .column td.seven,
+      table[class=body] .columns td.seven {
+        width: 58.333333% !important
+      }
+
+      table[class=body] .column td.eight,
+      table[class=body] .columns td.eight {
+        width: 66.666666% !important
+      }
+
+      table[class=body] .column td.nine,
+      table[class=body] .columns td.nine {
+        width: 75% !important
+      }
+
+      table[class=body] .column td.ten,
+      table[class=body] .columns td.ten {
+        width: 83.333333% !important
+      }
+
+      table[class=body] .column td.eleven,
+      table[class=body] .columns td.eleven {
+        width: 91.666666% !important
+      }
+
+      table[class=body] .column td.twelve,
+      table[class=body] .columns td.twelve {
+        width: 100% !important
+      }
+
+      table[class=body] td.offset-by-eight,
+      table[class=body] td.offset-by-eleven,
+      table[class=body] td.offset-by-five,
+      table[class=body] td.offset-by-four,
+      table[class=body] td.offset-by-nine,
+      table[class=body] td.offset-by-one,
+      table[class=body] td.offset-by-seven,
+      table[class=body] td.offset-by-six,
+      table[class=body] td.offset-by-ten,
+      table[class=body] td.offset-by-three,
+      table[class=body] td.offset-by-two {
+        padding-left: 0 !important
+      }
+
+      table[class=body] table.columns td.expander {
+        width: 1px !important
+      }
+
+      table[class=body] .right-text-pad,
+      table[class=body] .text-pad-right {
+        padding-left: 10px !important
+      }
+
+      table[class=body] .left-text-pad,
+      table[class=body] .text-pad-left {
+        padding-right: 10px !important
+      }
+
+      table[class=body] .hide-for-small,
+      table[class=body] .show-for-desktop {
+        display: none !important
+      }
+
+      table[class=body] .hide-for-desktop,
+      table[class=body] .show-for-small {
+        display: inherit !important
+      }
+    }
+
+    @media only screen and (max-width:600px) {
+      table[class=body] .right-text-pad {
+        padding-left: 10px !important
+      }
+
+      table[class=body] .left-text-pad {
+        padding-right: 10px !important
+      }
+    }
+  </style>
+    <h2 style="text-align: center">Parul University</h2>
+    <h2 style="opacity: 0.5; text-align: center">
+      Examination Management System
+    </h2>
+    <div class="card">
+      <div class="row">
+        <div class="column">
+          <h1 style="white-space: nowrap; margin-left: 300px">Admit Card</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <h3 style="white-space: nowrap; margin-right: 30px">
+            Parul University
+          </h3>
+          <h2 style="white-space: nowrap">Mid Sem Exam- 2021</h2>
+          <h1 class="name">{{fullName}}</h1>
+          <p class="title">{{branch}}</p>
+          <p class="title" style="margin-right: 500px">Semester {{sem}}</p>
+          <p><button>ExamId: {{examId}}</button></p>
+        </div>
+        <div class="column">
+          <img src="cat.jpg" alt="Photo" />
+        </div>
+      </div>
+      <div class="row">
+        {{!-- <div class="column">
+          <div class="subCard">
+            <h2>{{subjects[0]}}</h2>
+            <h3>12/04/21</h3>
+            <h3>saturday</h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="subCard">
+            <h2>{{subjects[1]}}</h2>
+            <h3>12/04/21</h3>
+            <h3>saturday</h3>
+          </div>
+        </div> --}}
+        {{!-- <div class="column">
+          <div class="subCard">
+            <h2>{{subjects[2]}}</h2>
+            <h3>12/04/21</h3>
+            <h3>saturday</h3>
+          </div>
+        </div>
+        <div class="column">
+          <div class="subCard">
+            <h2>{{subjects[3]}}</h2>
+            <h3>12/04/21</h3>
+            <h3>saturday</h3>
+          </div>
+        </div> --}}
+      </div>
+      <div class="row">
+        <div class="column">
+          <h2 style="white-space: nowrap">Exam Time: 12:30 to 01:30 PM</h2>
+        </div>
+        <div class="column">
+          <h2 style="white-space: nowrap; margin-left: 300px">Room no:</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

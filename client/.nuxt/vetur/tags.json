@@ -1,0 +1,128 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "SideBar": {
+    "description": "Auto imported from components/admin/sideBar.vue"
+  },
+  "LazySideBar": {
+    "description": "Auto imported from components/admin/sideBar.vue"
+  },
+  "Profile": {
+    "description": "Auto imported from components/user/profile.vue"
+  },
+  "LazyProfile": {
+    "description": "Auto imported from components/user/profile.vue"
+  },
+  "ResultCard": {
+    "description": "Auto imported from components/user/resultCard.vue"
+  },
+  "LazyResultCard": {
+    "description": "Auto imported from components/user/resultCard.vue"
+  },
+  "ResultMenu": {
+    "description": "Auto imported from components/user/resultMenu.vue"
+  },
+  "LazyResultMenu": {
+    "description": "Auto imported from components/user/resultMenu.vue"
+  },
+  "ScheduleDetails": {
+    "description": "Auto imported from components/user/scheduleDetails.vue"
+  },
+  "LazyScheduleDetails": {
+    "description": "Auto imported from components/user/scheduleDetails.vue"
+  },
+  "Schedules": {
+    "description": "Auto imported from components/user/schedules.vue"
+  },
+  "LazySchedules": {
+    "description": "Auto imported from components/user/schedules.vue"
+  },
+  "GenerateMenu": {
+    "description": "Auto imported from components/admin/result/generateMenu.vue"
+  },
+  "LazyGenerateMenu": {
+    "description": "Auto imported from components/admin/result/generateMenu.vue"
+  },
+  "GeneratedSheet": {
+    "description": "Auto imported from components/admin/result/generatedSheet.vue"
+  },
+  "LazyGeneratedSheet": {
+    "description": "Auto imported from components/admin/result/generatedSheet.vue"
+  },
+  "GetSheet": {
+    "description": "Auto imported from components/admin/result/getSheet.vue"
+  },
+  "LazyGetSheet": {
+    "description": "Auto imported from components/admin/result/getSheet.vue"
+  },
+  "DetailDialog": {
+    "description": "Auto imported from components/admin/schedule/detailDialog.vue"
+  },
+  "LazyDetailDialog": {
+    "description": "Auto imported from components/admin/schedule/detailDialog.vue"
+  },
+  "EditDialog": {
+    "description": "Auto imported from components/admin/schedule/editDialog.vue"
+  },
+  "LazyEditDialog": {
+    "description": "Auto imported from components/admin/schedule/editDialog.vue"
+  },
+  "ScheduleForm": {
+    "description": "Auto imported from components/admin/schedule/scheduleForm.vue"
+  },
+  "LazyScheduleForm": {
+    "description": "Auto imported from components/admin/schedule/scheduleForm.vue"
+  },
+  "DeleteFaculty": {
+    "description": "Auto imported from components/admin/list/deleteFaculty.vue"
+  },
+  "LazyDeleteFaculty": {
+    "description": "Auto imported from components/admin/list/deleteFaculty.vue"
+  },
+  "DeleteSelectedFaculty": {
+    "description": "Auto imported from components/admin/list/deleteSelectedFaculty.vue"
+  },
+  "LazyDeleteSelectedFaculty": {
+    "description": "Auto imported from components/admin/list/deleteSelectedFaculty.vue"
+  },
+  "DeleteSelectedStudent": {
+    "description": "Auto imported from components/admin/list/deleteSelectedStudent.vue"
+  },
+  "LazyDeleteSelectedStudent": {
+    "description": "Auto imported from components/admin/list/deleteSelectedStudent.vue"
+  },
+  "DeleteStudent": {
+    "description": "Auto imported from components/admin/list/deleteStudent.vue"
+  },
+  "LazyDeleteStudent": {
+    "description": "Auto imported from components/admin/list/deleteStudent.vue"
+  },
+  "FacultyForm": {
+    "description": "Auto imported from components/admin/list/facultyForm.vue"
+  },
+  "LazyFacultyForm": {
+    "description": "Auto imported from components/admin/list/facultyForm.vue"
+  },
+  "FacultyTable": {
+    "description": "Auto imported from components/admin/list/facultyTable.vue"
+  },
+  "LazyFacultyTable": {
+    "description": "Auto imported from components/admin/list/facultyTable.vue"
+  },
+  "StudentForm": {
+    "description": "Auto imported from components/admin/list/studentForm.vue"
+  },
+  "LazyStudentForm": {
+    "description": "Auto imported from components/admin/list/studentForm.vue"
+  },
+  "StudentTable": {
+    "description": "Auto imported from components/admin/list/studentTable.vue"
+  },
+  "LazyStudentTable": {
+    "description": "Auto imported from components/admin/list/studentTable.vue"
+  }
+}
